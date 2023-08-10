@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap About Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS */
+        body {
+            background-color: #d9dad0;
+        }
+        .navbar {
+            background-color: #ee0c0c;
+        }
+        .navbar-dark .navbar-brand {
+            color: #ffffff;
+            font-size: 24px;
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #ffffff;
+        }
+        .nav-link {
+            color: #ffffff;
+            font-size: 18px;
+        }
+        .nav-link:hover {
+            color: #e90606;
+        }
+        
+        .card {
+            border: none;
+            background-color: transparent;
+        }
+        .card-title {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .card-text {
+            font-size: 18px;
+        }
+        .square-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#">chat bot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="container my-5">
+        
+        <div class="diffSection" id="team_section">
+            <center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+            <div class="totalcard">
+                <div class="card">
+                    <center> <img src="images/developer.jpg" alt="Developer" class="square-image"></center>
+                    <center><div class="card-title">RAFIK SHAH</div>
+                    <div id="detail">
+                        <p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives “</p>
+                        <div class="duty"></div>
+                        <a href="https://www.linkedin.com/in/roshan-kumar-a18b76179/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+                    </div>
+                    </center>
+                </div>
+                <div class="card">
+                    <center> <img src="images/developer1.jpg" alt="Developer" class="square-image"></center>
+                    <center><div class="card-title">MOHHAMAD RAFIK</div>
+                    <div id="detail">
+                        <p>“ Real education should consist of drawing the goodness and the best out of our own students. What better books can there be than the book of humanity “</p>
+                        <div class="duty"></div>
+                        <a href="https://www.linkedin.com/in/roshan-kumar-a18b76179/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+                    </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2023 Your Website. All Rights Reserved.
+    </footer>
+
+    <!-- Bootstrap JS (optional, for components like dropdowns, modals, etc.) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

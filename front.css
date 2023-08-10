@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 79em;
+    height: 600px;
+}
+.img {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 500px;
+    height: 500px; 
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+}
+.logo {
+    color: transparent;
+    -webkit-text-stroke: 2px gainsboro;
+    font-size: 25px;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    
+}
+li {
+    list-style: none;
+    
+}
+.menu {
+    display: flex;
+    margin-left: 45em;
+    gap: 3em;
+    font-size:larger;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.25s ease;
+}
+ul:hover a {
+    color:black;
+}
+ul:hover a:hover {
+    color:rgb(140, 99, 140);
+    box-shadow: 0.2px 0 0 currentColor;
+}
+h1 {
+    display: flex;
+    position: absolute;
+    color: whitesmoke;
+    margin-left: 12em;
+    font-size: 55px;
+    letter-spacing: 8px;
+}
+.text1 {
+    top: 3em;
+}
+.text2 {
+   top: 4.5em;
+}
+.text-part {
+    background-color: black;
+    color: purple;
+}
+.text {
+    position: absolute;
+    margin-left: 660px;
+    top: 17em;
+    width: 500px;
+    font-size: larger;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+.btn {
+    position: absolute;
+    bottom: 4em;
+    right: 24em;
+}
+.btn1 {
+    padding: 15px 45px;
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: purple;
+    background-color: whitesmoke;
+    border: 2px solid purple;
+    border-radius: 10px;
+	box-shadow: 5px 5px 5px plum;
+}
+.btn1:hover {
+    padding: 15px 45px;
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: black;
+    background-color: purple;
+    border: 2px solid black;
+    border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}

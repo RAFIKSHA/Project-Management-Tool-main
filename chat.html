@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>ChatUp</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand logo" href="#">Your ChatBot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/front.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+   <header>
+    <div class="bg-img"><img class="bg-img" src="\images\bg2.avif" alt="error"></div>
+   </header>
+
+   <h3 class="chatup">ChatUp</h3>
+  <div id="chat-container">
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+      <input type="text" id="message-input" placeholder="Type your message">
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+  <script src="chat.js"></script>
+
+  <h3 class="cmt">Project Management Tool</h3>
+  <form id="contentForm">
+    <label for="title">Title:</label>
+    <input type="text" id="title" required>
+    <label for="content">Content:</label>
+    <textarea id="content" required></textarea>
+    <div class="btn">
+    <button type="submit">Save</button>
+    </div>
+  </form>
+  <div id="contentList"></div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
